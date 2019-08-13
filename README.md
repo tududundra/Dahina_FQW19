@@ -1,5 +1,8 @@
 # Dahina_FQW19
 ВКР Дахиной Александры
 
-## Annotation 
+
+## Discourse Relations Recognition: the Case of Contrast and Comparison
+
+### Annotation 
 This work is devoted to the study of rhetorical relations of contrast and comparison in the Russian language. The study is based on data from Ru-RSTreebank, labeled according to the theory of Rhetorical Structure Theory (RST) (Mann, Thompson, 1988). The main objective of this work is to identify significant features that distinguish rhetorical relations of contrast from the relation of comparison. In this paper, the influence of various aspects on the recognition of the relations between Contrast and Comparison is considered. Particular attention is paid to the lexical and syntactic properties of these two relations. Also, examines the impact of spatial proximity of different parts of elementary discourse units (EDU) with the same parts of EDU, related to a rhetorical attitude, to recognize relations of contrast and comparison. We conducted research using the **Pyhon** programming language (and its tools),  **model from RusVectōrēs** and **Turku-neural-parser-pipeline**. As a result of the study, 13 features were considered, of which only 11 were statistically significant. It is from these 11 features that those that most characterize contrast or comparison were chosen so that these relations can be automatically classified. We conducted several experiments, going through all possible combinations of features and tested their impact on the classification using the **Random Forest** algorithm. As a result of the study, we have identified three features that make the greatest contribution to the recognition of the relations of contrast and comparison. 
